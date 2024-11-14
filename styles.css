@@ -139,3 +139,26 @@ a {
 #main form .form-row input:user-invalid {
     border: 2px solid #D06666;
 }
+
+button {
+    width: 200px;
+    height: 40px;
+    background-color: #596D48;
+    box-shadow: 8px 8px 9px -9px #596D48;
+    margin: 1rem 0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgba(89,100,72,1);
+}
+
+button + p a {
+    color: #596D48;
+    font-weight: bold;
+}
