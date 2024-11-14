@@ -31,4 +31,33 @@ input, button, textarea, select {
 #sidebar {
     background: no-repeat center/100% url("assets/background.jpg");
     width: 40%;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+#sidebar .logo-section {
+    background-color:rgba(0, 0, 0, 0.5);
+    font-family: "norsebold", serif;
+    font-size: 4rem;
+    padding: .5rem;
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#sidebar .logo-section img {
+    width: 75px;
+}
+
+#sidebar .credit {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
