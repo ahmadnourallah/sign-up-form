@@ -136,8 +136,13 @@ a {
     outline: 0;
 }
 
-#main form .form-row input:user-invalid {
+#main form .form-row input[type=password]:invalid {
     border: 2px solid #D06666;
+}
+
+#main form .warning {
+    color: red;
+    display: none;
 }
 
 button {
