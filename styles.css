@@ -90,3 +90,14 @@ input, button, textarea, select {
 #main .info p {
     margin-bottom: 1rem;
 }
+
+#main .form-wrapper {
+    filter: drop-shadow(-1px 6px 3px rgba(225,228,232,1));
+}
+
+#main .form {
+    background-color: #FFF;
+    box-shadow: 0 0 0 2rem #FFF, 0px 14px 9px -6px red;
+    clip-path: inset(0 -2rem);
+    padding: 1rem 0;
+}
