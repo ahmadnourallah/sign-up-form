@@ -65,4 +65,9 @@ input, button, textarea, select {
     bottom: 10px;
     width: 100%;
     text-align: center;
+    font-size: .8rem;
+}
+
+#sidebar .credit a {
+    text-decoration: underline;
 }
