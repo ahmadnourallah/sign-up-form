@@ -6,13 +6,12 @@ function validatePassword() {
     if (passwdField.value !== confirmPasswdField.value) {
         confirmPasswdField.setCustomValidity("Invalid field.");
         passwdField.setCustomValidity("Invalid field.");
-        passwordWarning.style.display = "block";
-        console.log("ok")
+        passwordWarning.style.visibility = "visible";
 
     } else {
         confirmPasswdField.setCustomValidity("");
         passwdField.setCustomValidity("");
-        passwordWarning.style.display = "none";
+        passwordWarning.style.visibility = "hidden";
     }
 }
 
