@@ -5,3 +5,21 @@
     font-weight: normal;
     font-style: normal;
 }
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+  
+body {
+    line-height: 1.5;
+}
+
+input, button, textarea, select {
+    font: inherit; 
+}
