@@ -79,3 +79,12 @@ input, button, textarea, select {
     justify-content: center;
     gap: 1rem;
 }
+
+#main .info {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#main .info p {
+    margin-bottom: 1rem;
+}
