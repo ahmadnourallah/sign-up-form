@@ -71,3 +71,10 @@ input, button, textarea, select {
 #sidebar .credit a {
     text-decoration: underline;
 }
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
